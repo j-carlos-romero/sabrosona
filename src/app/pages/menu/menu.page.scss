@@ -1,0 +1,101 @@
+/* ======== ESTRUCTURA GENERAL ======== */
+ion-content {
+    --background: #fff9e1;
+    padding: 12px;
+}
+
+ion-list .productos {
+    --background: #fff9e1;
+    padding: 12px;
+}
+
+/* ======== TITULARES DE SECCIÓN ======== */
+ion-list-header .tipo-producto {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    ion-label {
+        font-size: 3em;
+        color: #333;
+    }
+}
+
+/* ======== TARJETAS DE PRODUCTO ======== */
+ion-card {
+    --background: #fff9e1;
+    --border-radius: 16px;
+    box-shadow: none;
+    border: 3px solid #fbe2c6;
+    margin: 8px;
+    padding: 4px 0;
+}
+
+ion-item {
+    --background: transparent;
+    --padding-start: 16px;
+    --inner-padding-end: 16px;
+    --min-height: 48px;
+}
+
+ion-label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* ======== NOMBRE Y PRECIO ======== */
+ion-item:first-child ion-label {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #333;
+}
+
+ion-item:first-child::part(native) {
+    justify-content: space-between;
+}
+
+/* ======== DESCRIPCIÓN ======== */
+ion-card-content ion-label {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+/* ======== PRECIO ======== */
+ion-card-content ion-item:last-child ion-label {
+    text-align: right;
+    font-weight: 600;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* ======== POPOVER DE ALÉRGENOS ======== */
+ion-popover {
+    --width: 300px;
+}
+
+ion-list-header {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.alergeno-icon {
+    margin-right: 0.25em;
+}
+
+.info-icon {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.alergeno-item {
+    display: flex;
+    align-items: center;
+}
+
+/* ======== RESPONSIVE ======== 
+@media (min-width: 600px) {
+    ion-content {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}*/
