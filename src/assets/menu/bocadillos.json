@@ -1,0 +1,13 @@
+[
+    {
+        "nombre": "Bocadillo de jamón",
+        "descripcion": "Bollo de jamón ibérico",
+        "precio": 3.75,
+        "tipoProducto": "Bocadillos fríos"
+    },
+    {
+        "nombre": "Bocadillo cochinito",
+        "precio": 3,
+        "tipoProducto": "Bocadillos calientes"
+    }
+]

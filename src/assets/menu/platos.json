@@ -25,16 +25,5 @@
         "precioMin": 8.00,
         "precioMax": 12.00,
         "tipoProducto": "Guisos"
-    },
-    {
-        "nombre": "Tarta de queso",
-        "descripcion": "Tarta de queso azul",
-        "precio": 6.00,
-        "tipoProducto": "Postres"
-    },
-    {
-        "nombre": "Litro Cruzcampo",
-        "precio": 1.20,
-        "tipoProducto": "Bebidas"
     }
 ]

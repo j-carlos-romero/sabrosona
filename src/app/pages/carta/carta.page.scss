@@ -16,6 +16,8 @@ ion-content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    min-height: 400px;
 }
 
 .container::before {
@@ -34,4 +36,24 @@ ion-content {
 
 app-footer {
     width: 100%;
+}
+
+.tipo {
+    width: 80%;
+}
+
+.descripcion {
+    font-size: medium;
+}
+
+h1 {
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ion-note {
+    font-size: large;
 }

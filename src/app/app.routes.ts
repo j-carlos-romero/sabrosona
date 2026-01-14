@@ -11,10 +11,6 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/home/home.page').then(m => m.HomePage)
     },
     {
-        path: 'menu',
-        loadComponent: () => import('./pages/menu/menu.page').then(m => m.MenuPage)
-    },
-    {
         path: 'apertura',
         loadComponent: () => import('./pages/apertura/apertura.page').then((m) => m.AperturaPage),
     },
@@ -23,7 +19,7 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/contactar/contactar.page').then(m => m.ContactarPage)
     },
     {
-        path: 'carta/:tipo',
+        path: 'carta/:seccion',
         loadComponent: () => import('./pages/carta/carta.page').then(m => m.CartaPage)
     },
 
