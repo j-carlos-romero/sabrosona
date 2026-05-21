@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 800px;
 }
 
 h1 {
@@ -58,5 +58,5 @@ a {
 }
 
 .logo {
-  width: 60%;
+  width: 50%;
 }
