@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Croquetas de jamón",
+        "precioMin": 7.50,
+        "precioMax": 15.00,
+        "tipoProducto": "Fritura *"
+    },
+    {
+        "nombre": "Croquetas de puchero",
+        "precioMin": 7.00,
+        "precioMax": 14.00,
+        "tipoProducto": "Fritura *"
+    },
+    {
+        "nombre": "Croquetas de bacalao",
+        "precioMin": 8.50,
+        "precioMax": 17.00,
+        "tipoProducto": "Fritura *"
+    },
+    {
+        "nombre": "Lagrimitas de pollo",
+        "precioMin": 7.50,
+        "precioMax": 15.00,
+        "tipoProducto": "Fritura *"
+    },
+    {
+        "nombre": "Pechuguitas empanadas",
+        "precioMin": 7.50,
+        "precioMax": 15.00,
+        "tipoProducto": "Fritura *"
+    },
+    {
+        "nombre": "Chocos fritos",
+        "precioMin": 11.00,
+        "precioMax": 22.00,
+        "tipoProducto": "Fritura *"
+    },
+    {
+        "nombre": "Adobo",
+        "precioMin": 10.00,
+        "precioMax": 20.00,
+        "tipoProducto": "Fritura *"
+    },
+    {
+        "nombre": "Gambas fritas",
+        "precioMin": 11.00,
+        "precioMax": 22.00,
+        "tipoProducto": "Fritura *"
+    }
+]

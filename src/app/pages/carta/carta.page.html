@@ -1,0 +1,36 @@
+<ion-content fullscreen>
+    <app-header></app-header>
+    <div class="container">
+        @for (tipo of tiposProducto; track $index) {
+            <div class="tipo">
+                <h1>{{ tipo }}</h1>
+                @for (producto of getProductosPorTipo(tipo); track $index) {
+                    @if (tipo === producto.tipoProducto) {
+                        <ion-item>
+                            <ion-label mode="ios">
+                                {{ producto.nombre }}
+                                @if (producto.descripcion) {
+                                    <p class="descripcion">{{ producto.descripcion }}</p>
+                                }
+                            </ion-label>
+                            @if (producto.precio) {
+                            <ion-note slot="end">{{ producto.precio }} €</ion-note>
+                            } @else if (producto.precioMin) {
+                            <ion-note slot="end">{{ producto.precioMin }} € / {{ producto.precioMax }} €</ion-note>
+                            }
+                            
+                        </ion-item>
+                    }
+                }
+                @if (seccion === 'patatas_fritas') {
+                    <p>* Medianas o grandes</p>
+                } @else if (seccion === 'tortillas') {
+                    <p>* Las tortillas van por encargo. Tamaño grande</p>
+                } @else if (seccion === 'fritura') {
+                    <p>* Fritura recién hecha. Los precios van en función del peso: 1/2 KG o 1 KG</p>
+                }
+            </div>
+        }
+    </div>
+    <app-footer [showIrInicio]="true"></app-footer>
+</ion-content>

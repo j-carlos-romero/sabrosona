@@ -1,0 +1,82 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+ion-content {
+    --padding-top: 0;
+}
+
+.home-container {
+    position: relative;
+    z-index: 2;
+    padding-top: 380px;   /* MISMO valor que height de .top-image */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container::before {
+    content: "";
+    position: absolute;
+    top: 380px;     /* MISMO valor que height de .top-image */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: -1;
+
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.logo {
+    max-width: 55%;
+}
+
+app-footer {
+    width: 100%;
+}
+
+.carta {
+    width: 75%;
+    margin-bottom: 2rem;
+
+    ion-button {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        transition: transform 0.1s ease;
+        --background-hover: var(--background);
+        --ripple-color: transparent;
+    }
+
+    ion-button:active {
+        transform: scale(0.96);
+    }
+
+    .fisrt-button {
+        --background: #fbe2c6;
+        --background-activated: #fbe2c6;
+    }
+
+    .second-button {
+        --background: #c6dffa;
+        --background-activated: #c6dffa;
+    }
+
+    .third-button {
+        --background: #fff9e1;
+        --background-activated: #fff9e1;
+    }
+
+    .fourth-button {
+        --background: #e1e7ff;
+        --background-activated: #e1e7ff;
+    }
+}
+
+ion-button.md {
+    text-transform: none;
+}

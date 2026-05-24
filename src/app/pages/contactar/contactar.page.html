@@ -1,0 +1,46 @@
+<ion-content fullscreen>
+    <app-header></app-header>
+    <div class="container">
+        <div class="logo">
+            <img src="assets/icon/logo-transparente.png" alt="SABROSONA" />
+        </div>
+        <div class="info">
+            <h2>Dónde estamos</h2>
+            <p class="address">
+                <ion-icon name="pin-outline"></ion-icon>
+                <a href="https://maps.app.goo.gl/mhQ9qy3JJmhH47a8A" target="_blank">Avenida de Cádiz 74, Los Palacios y Villafranca</a>
+            </p>
+            <h2>Teléfono</h2>
+            <p>644 912 226</p>
+            <h2>Horario</h2>
+            <p>Martes a Domingo</p>
+            <p>11:00 a 16:00 - 19:00 a 23:00</p>
+            <h2>Alérgenos</h2>
+            <span>
+                <ion-button id="alergenos-trigger" fill="clear">
+                    <ion-icon class="info-icon" slot="end" name="alert-circle-outline" color="warning" />
+                </ion-button>
+                <ion-popover trigger="alergenos-trigger" triggerAction="click">
+                    <ng-template>
+                        <ion-content>
+                            <ion-list-header>
+                                Preguntar al personal en caso de alergias:
+                            </ion-list-header>
+                            <ion-grid>
+                                <ion-row>
+                                    @for (alergeno of alergenos; track alergeno) {
+                                    <ion-col size="6" class="alergeno-item">
+                                        <ion-icon [src]="getAlergenoIcon(alergeno)" class="alergeno-icon" />
+                                        <ion-label>{{ getAlergeno(alergeno) }}</ion-label>
+                                    </ion-col>
+                                    }
+                                </ion-row>
+                            </ion-grid>
+                        </ion-content>
+                    </ng-template>
+                </ion-popover>
+            </span>
+        </div>
+        <app-footer [showIrInicio]="true"></app-footer>
+    </div>
+</ion-content>
