@@ -1,18 +1,26 @@
 [
     {
         "nombre": "Normales",
+        "precioMin": 2.30,
+        "precioMax": 3.50,
         "tipoProducto": "Patatas fritas *"
     },
     {
         "nombre": "Arrieras",
+        "precioMin": 6.00,
+        "precioMax": 12.00,
         "tipoProducto": "Patatas fritas *"
     },
     {
         "nombre": "Bravas",
+        "precioMin": 4.50,
+        "precioMax": 10.00,
         "tipoProducto": "Patatas fritas *"
     },
     {
         "nombre": "Chedar",
+        "precioMin": 4.00,
+        "precioMax": 8.00,
         "tipoProducto": "Patatas fritas *"
     }
 ]
