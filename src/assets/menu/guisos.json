@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Aliños",
+        "descripcion": "Aliños fríos de patatas, pimientos, salpicón, picadillo, ...",
+        "tipoProducto": "Aliños"
+    },
+    {
+        "nombre": "Guisos caseros",
+        "descripcion": "Nuestras vitrinas siempre están llenas con comida de elaboración propia diaria. ¡Ven y mira qué pinta!",
+        "tipoProducto": "Guisos"
+    },
+    {
+        "nombre": "Paella",
+        "descripcion": "Preguntar disponibilidad. También hacemos paella por encargo",
+        "tipoProducto": "Arroces"
+    }
+]

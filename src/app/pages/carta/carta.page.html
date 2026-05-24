@@ -7,50 +7,29 @@
                 @for (producto of getProductosPorTipo(tipo); track $index) {
                     @if (tipo === producto.tipoProducto) {
                         <ion-item>
-                            <ion-label>
-                                <h2>{{ producto.nombre }}</h2>
+                            <ion-label mode="ios">
+                                {{ producto.nombre }}
                                 @if (producto.descripcion) {
                                     <p class="descripcion">{{ producto.descripcion }}</p>
                                 }
                             </ion-label>
                             @if (producto.precio) {
                             <ion-note slot="end">{{ producto.precio }} €</ion-note>
-                            } @else {
+                            } @else if (producto.precioMin) {
                             <ion-note slot="end">{{ producto.precioMin }} € / {{ producto.precioMax }} €</ion-note>
                             }
                             
                         </ion-item>
                     }
                 }
+                @if (seccion === 'patatas_fritas') {
+                    <p>* Medianas o grandes</p>
+                } @else if (seccion === 'tortillas') {
+                    <p>* Las tortillas van por encargo. Tamaño grande</p>
+                } @else if (seccion === 'fritura') {
+                    <p>* Fritura recién hecha. Los precios van en función del peso: 1/2 KG o 1 KG</p>
+                }
             </div>
-        <!--<ion-list class="productos">
-            <ion-list-header class="tipo-producto">
-                <ion-label>{{ tipo }}</ion-label>
-            </ion-list-header>
-            @for (producto of getProductosPorTipo(tipo); track $index) {
-            @if (tipo === producto.tipoProducto) {
-            <ion-card>
-                <ion-card-header>
-                    <ion-card-title>{{ producto.nombre }}</ion-card-title>
-                    @if (producto.descripcion) {
-                    <ion-card-subtitle *ngIf="producto.descripcion">
-                        {{ producto.descripcion }}
-                    </ion-card-subtitle>
-                    }
-                </ion-card-header>
-                <ion-card-content>
-                    <ion-label>
-                        @if (producto.precio) {
-                        {{ producto.precio }} €
-                        } @else {
-                        {{ producto.precioMin }} € / {{ producto.precioMax }} €
-                        }
-                    </ion-label>
-                </ion-card-content>
-            </ion-card>
-            }
-            }
-        </ion-list>-->
         }
     </div>
     <app-footer [showIrInicio]="true"></app-footer>

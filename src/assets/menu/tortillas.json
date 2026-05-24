@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "De patatas",
+        "precio": 10.00,
+        "tipoProducto": "Tortillas *"
+    },
+    {
+        "nombre": "De patatas con cebolla",
+        "precio": 10.00,
+        "tipoProducto": "Tortillas *"
+    },
+    {
+        "nombre": "Campera",
+        "precio": 12.00,
+        "tipoProducto": "Tortillas *"
+    }
+]

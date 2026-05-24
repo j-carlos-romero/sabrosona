@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Plato combinado",
+        "descripcion": "Patatas fritas, huevo frito, pimiento frito, a elegir: pechuga o lomo a la plancha",
+        "precio": 5.00,
+        "tipoProducto": "Combinados"
+    },
+    {
+        "nombre": "Menú del día",
+        "descripcion": "Menú del día entre semana: 1º y 2º a elegir, bebida, pan y postre",
+        "precio": 7.50,
+        "tipoProducto": "Menú del día"
+    }
+]
