@@ -6,9 +6,15 @@
         "tipoProducto": "Combinados"
     },
     {
-        "nombre": "Menú del día",
-        "descripcion": "Menú del día entre semana: 1º y 2º a elegir, bebida, pan y postre",
-        "precio": 7.50,
+        "nombre": "Medio menú",
+        "descripcion": "Menú del día entre semana: 1º y 2º a elegir y pan",
+        "precio": 6.90,
+        "tipoProducto": "Menú del día"
+    },
+    {
+        "nombre": "Menú completo",
+        "descripcion": "Menú del día entre semana: 1º y 2º a elegir, pan, bebida y postre",
+        "precio": 8.90,
         "tipoProducto": "Menú del día"
     }
 ]
