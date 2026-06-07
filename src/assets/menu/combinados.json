@@ -3,18 +3,18 @@
         "nombre": "Plato combinado",
         "descripcion": "Patatas fritas, huevo frito, pimiento frito, a elegir: pechuga o lomo a la plancha",
         "precio": 5.00,
-        "tipoProducto": "Combinados"
+        "tipoProducto": "Combinados *"
     },
     {
         "nombre": "Medio menú",
-        "descripcion": "Menú del día entre semana: 1º y 2º a elegir y pan",
+        "descripcion": "1º y 2º a elegir y pan",
         "precio": 6.90,
-        "tipoProducto": "Menú del día"
+        "tipoProducto": "Menú del día *"
     },
     {
         "nombre": "Menú completo",
-        "descripcion": "Menú del día entre semana: 1º y 2º a elegir, pan, bebida y postre",
+        "descripcion": "1º y 2º a elegir, pan, bebida y postre",
         "precio": 8.90,
-        "tipoProducto": "Menú del día"
+        "tipoProducto": "Menú del día *"
     }
 ]

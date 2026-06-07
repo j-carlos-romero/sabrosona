@@ -6,11 +6,11 @@
     },
     {
         "nombre": "De patatas con cebolla",
-        "precio": 10.00,
+        "precio": 11.00,
         "tipoProducto": "Tortillas *"
     },
     {
-        "nombre": "Campera",
+        "nombre": "De patatas con cebolla y pimiento",
         "precio": 12.00,
         "tipoProducto": "Tortillas *"
     }
