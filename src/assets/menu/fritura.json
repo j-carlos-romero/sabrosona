@@ -31,8 +31,8 @@
     },
     {
         "nombre": "Chocos fritos",
-        "precioMin": 11.00,
-        "precioMax": 22.00,
+        "precioMin": 14.00,
+        "precioMax": 25.00,
         "tipoProducto": "Fritura *"
     },
     {

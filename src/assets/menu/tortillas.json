@@ -13,5 +13,11 @@
         "nombre": "De patatas con cebolla y pimiento",
         "precio": 12.00,
         "tipoProducto": "Tortillas *"
+    },
+    {
+        "nombre": "Porción de tortilla",
+        "precio": 3.00,
+        "descripcion": "Porción de tortilla según disponibilidad",
+        "tipoProducto": "Tortillas *"
     }
 ]
