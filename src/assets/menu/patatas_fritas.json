@@ -16,11 +16,5 @@
         "precioMin": 5.00,
         "precioMax": 10.00,
         "tipoProducto": "Patatas fritas *"
-    },
-    {
-        "nombre": "Chedar",
-        "precioMin": 4.00,
-        "precioMax": 8.00,
-        "tipoProducto": "Patatas fritas *"
     }
 ]
