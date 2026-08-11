@@ -1,11 +1,5 @@
 [
     {
-        "nombre": "Plato combinado",
-        "descripcion": "Patatas fritas, huevo frito, pimiento frito, a elegir: pechuga o lomo a la plancha",
-        "precio": 5.00,
-        "tipoProducto": "Combinados *"
-    },
-    {
         "nombre": "Medio menú",
         "descripcion": "1º y 2º a elegir y pan",
         "precio": 6.90,
