@@ -8,13 +8,13 @@
     {
         "nombre": "Arrieras",
         "precioMin": 6.00,
-        "precioMax": 12.00,
+        "precioMax": 11.00,
         "tipoProducto": "Patatas fritas *"
     },
     {
         "nombre": "Bravas",
         "precioMin": 5.00,
-        "precioMax": 10.00,
+        "precioMax": 9.00,
         "tipoProducto": "Patatas fritas *"
     }
 ]

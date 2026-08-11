@@ -13,5 +13,10 @@
         "nombre": "Paella",
         "descripcion": "Preguntar disponibilidad. También hacemos paella por encargo",
         "tipoProducto": "Arroces"
+    },
+    {
+        "nombre": "Arroz cortijero",
+        "descripcion": "Preguntar disponibilidad. También hacemos paella por encargo",
+        "tipoProducto": "Arroces"
     }
 ]
